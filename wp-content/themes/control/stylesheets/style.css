@@ -1,0 +1,299 @@
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'AlternateGotNo3D';
+  src: url("../fonts/AlternateGotNo3D/AlternateGotNo3D.eot?#iefix") format("embedded-opentype"), url("../fonts/AlternateGotNo3D/AlternateGotNo3D.woff") format("woff"), url("../fonts/AlternateGotNo3D/AlternateGotNo3D.ttf") format("truetype"), url("../fonts/AlternateGotNo3D/AlternateGotNo3D.svg#AlternateGotNo3D") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AkzidenzGroteskBE-LightEx';
+  src: url("../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.eot?#iefix") format("embedded-opentype"), url("../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.otf") format("opentype"), url("../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.woff") format("woff"), url("../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.ttf") format("truetype"), url("../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.svg#AkzidenzGroteskBE-LightEx") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AlternateGotNo1D';
+  src: url("../fonts/AlternateGotNo1D/AlternateGotNo1D.eot?#iefix") format("embedded-opentype"), url("../fonts/AlternateGotNo1D/AlternateGotNo1D.woff") format("woff"), url("../fonts/AlternateGotNo1D/AlternateGotNo1D.ttf") format("truetype"), url("../fonts/AlternateGotNo1D/AlternateGotNo1D.svg#AlternateGotNo1D") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+.container {
+  max-width: 1300px; }
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1300px; } }
+
+/*--------------------------------------------------------------
+# Includes
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+.site-header {
+  height: 80vh;
+  border-style: solid;
+  border-width: 0 0 21px; }
+
+.menu-btn {
+  background: none;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  width: 100%; }
+
+.main-navigation .menu-menu-1-container {
+  margin-left: auto;
+  margin-right: auto; }
+
+.main-navigation .custom-menu li {
+  display: inline-block;
+  float: none;
+  padding: 5px;
+  margin: 5px;
+  text-align: center; }
+
+.main-navigation .custom-menu a {
+  opacity: 0.64;
+  font: 400 16px/22px "AlternateGotNo3D";
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.navbar-brand {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  margin: auto; }
+
+@media screen and (min-width: 540px) {
+  .site-header {
+    height: 140vh; } }
+
+@media screen and (min-width: 768px) {
+  .site-header {
+    height: 100vh; }
+  .main-navigation .custom-menu .active {
+    background: #d90c00; }
+  .main-navigation .custom-menu li {
+    padding: 20px 15px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    z-index: 100; }
+    .main-navigation .custom-menu li:hover {
+      cursor: pointer; }
+  .main-navigation .custom-menu .home-link a {
+    background: url("../img/src/logo-icon.png") center/100% no-repeat;
+    color: rgba(255, 255, 255, 0); }
+  .main-navigation .custom-menu a {
+    font: 400 20px/20px "AlternateGotNo3D"; }
+  .navbar-brand {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 10% auto; } }
+
+.entry-title {
+  font: 500 52px/56px "AlternateGotNo1D";
+  text-transform: uppercase;
+  padding-bottom: 30px; }
+
+.entry-header {
+  margin-top: 2%;
+  border-width: 0 0 3px;
+  border-style: solid; }
+
+.entry-content {
+  font: 300 22px/30px "AkzidenzGroteskBE-LightEx";
+  text-align: justify;
+  margin: 30px 0; }
+
+.gallery {
+  margin-top: 45px; }
+  .gallery .video-thumbnail {
+    margin: 25px 0; }
+  .gallery a {
+    color: inherit;
+    text-decoration: none; }
+  .gallery .thumnbnail-caption {
+    font: 400 14px/16px "AlternateGotNo3D";
+    margin: 5px 0 20px; }
+
+.director-list-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0 0 3px;
+  border-style: solid; }
+  .director-list-item .video-thumbnail {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+.directors-list {
+  margin: 0; }
+
+.directors-title {
+  font: 400 38px/50px "AlternateGotNo1D";
+  margin-top: 12%;
+  padding: 0 5%;
+  text-align: center; }
+  .directors-title .border {
+    border-width: 0 0 3px;
+    border-style: dashed; }
+
+a.directors-bio-link {
+  text-decoration: none;
+  font: 300 26px/50px "AkzidenzGroteskBE-LightEx";
+  margin-top: 12%;
+  text-align: center;
+  color: inherit; }
+  a.directors-bio-link span {
+    display: block; }
+
+.director-header .directors-title {
+  font: 400 38px/50px "AlternateGotNo1D";
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+  .director-header .directors-title .border {
+    border-width: 0 0 3px;
+    border-style: dashed; }
+
+.directors-photo {
+  margin: 30px 0; }
+
+.about-director .director-header .directors-title {
+  text-align: center; }
+
+.about-director .director-description {
+  margin-bottom: 30px;
+  font: 300 26px/26px "AkzidenzGroteskBE-LightEx"; }
+
+.about-director .director-work {
+  font: 400 38px/50px "AlternateGotNo1D";
+  display: inline-block;
+  text-transform: uppercase; }
+
+.about-director .work-list {
+  display: inline-block; }
+  .about-director .work-list li {
+    display: inline-block; }
+    .about-director .work-list li a {
+      font: 400 38px/42px "AlternateGotNo1D";
+      text-decoration: none; }
+    .about-director .work-list li:after {
+      content: '/';
+      font: 400 38px/42px "AlternateGotNo1D";
+      color: #ffffff; }
+    .about-director .work-list li:last-child:after {
+      content: ""; }
+
+.contact-section {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.contact-item .location-photo {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 100%; }
+
+.contact-item .directors-title {
+  font: 400 38px/50px "AlternateGotNo1D";
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  .contact-item .directors-title .border {
+    border-width: 0 0 3px;
+    border-style: dashed; }
+    .contact-item .directors-title .border a {
+      color: inherit;
+      text-decoration: none; }
+
+.contact-executive-item {
+  border-width: 3px 0;
+  border-style: solid;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 3%; }
+  .contact-executive-item .directors-title {
+    font: 400 38px/50px "AlternateGotNo1D";
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .contact-executive-item .directors-title .border {
+      border-width: 0 0 3px;
+      border-style: dashed; }
+      .contact-executive-item .directors-title .border a {
+        color: inherit;
+        text-decoration: none; }
+
+.contact-executive-item .content, .contact-item .content {
+  text-transform: uppercase;
+  text-align: center; }
+  .contact-executive-item .content .contact-title, .contact-item .content .contact-title {
+    margin-top: 15px;
+    font: 400 26px/50px "AlternateGotNo3D";
+    color: #ffffff; }
+  .contact-executive-item .content p, .contact-item .content p {
+    font: 400 22px/45px "AlternateGotNo3D"; }

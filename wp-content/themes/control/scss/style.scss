@@ -1,0 +1,61 @@
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'AlternateGotNo3D';
+  src: url('../fonts/AlternateGotNo3D/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'),  url('../fonts/AlternateGotNo3D/AlternateGotNo3D.woff') format('woff'), url('../fonts/AlternateGotNo3D/AlternateGotNo3D.ttf')  format('truetype'), url('../fonts/AlternateGotNo3D/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AkzidenzGroteskBE-LightEx';
+  src: url('../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.eot?#iefix') format('embedded-opentype'),  url('../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.otf')  format('opentype'),
+  url('../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.woff') format('woff'), url('../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.ttf')  format('truetype'), url('../fonts/AkzidenzGroteskBE-LightEx/AkzidenzGroteskBE-LightEx.svg#AkzidenzGroteskBE-LightEx') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlternateGotNo1D';
+  src: url('../fonts/AlternateGotNo1D/AlternateGotNo1D.eot?#iefix') format('embedded-opentype'),  url('../fonts/AlternateGotNo1D/AlternateGotNo1D.woff') format('woff'), url('../fonts/AlternateGotNo1D/AlternateGotNo1D.ttf')  format('truetype'), url('../fonts/AlternateGotNo1D/AlternateGotNo1D.svg#AlternateGotNo1D') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+
+$no3d:'AlternateGotNo3D';
+$akzi:'AkzidenzGroteskBE-LightEx';
+$no1d:'AlternateGotNo1D';
+
+$red:#d90c00;
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+.container{
+  max-width: 1300px;
+}
+
+@media screen and (min-width: 1200px){
+  .container{
+    width: 1300px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Includes
+--------------------------------------------------------------*/
+@import "parts/reset";
+@import "parts/header";
+@import "parts/main";
+@import "parts/directors";
+@import "parts/contacts";
+
+
+
+
